@@ -1,0 +1,17 @@
+project: "example"
+
+logging:
+  output-file: "logs/apiserv.log"
+
+server:
+  port: "8000"
+  read-timeout: 10
+  write-timeout: 10
+
+db:
+  host: "db"
+  port: "5432"
+  username: "admin"
+  password: "pass"
+  database: "go_project"
+  ssl-mode: "disable"

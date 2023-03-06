@@ -1,0 +1,5 @@
+.idea
+build/
+logs/*.log
+.env
+db/database/
